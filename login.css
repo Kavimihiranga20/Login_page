@@ -1,0 +1,284 @@
+body{
+	margin:0;
+	padding: 0; 
+	width: 100%;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+
+}
+
+.top {
+      width: 100%;
+      height: 100vh;
+      background: url(image/home.jpg) ;
+      background-size: cover;
+      margin: 0;
+      
+}
+
+           /* LOGO image */
+
+.logo_img img{
+      width: 90px;
+      height: 60px;
+      position: absolute;
+      float: left;
+      margin: 16px 26px;
+}
+
+             /* Navigation Bar*/
+
+nav {
+      position: absolute;
+      width: 100%;
+      line-height: 60px;
+      background-color: #A0522D;
+      height: 80px;
+}
+
+nav ul {
+      line-height: 50px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      padding-top: 1px;
+      text-align: right;
+      margin: 0px;
+      padding-right: 20px;
+      
+}
+
+
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 20px;;
+     
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;    
+
+}
+
+					
+						/*	LOG IN Form   */
+						/*	LOG IN Form   */
+						/*	LOG IN Form   */
+					
+.loginBox{
+	position: absolute;
+	top: 57%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	padding: 80px 40px;
+	width: 350px;
+	height: 460px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.4);
+
+}
+.user{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2{
+	margin:0;
+	padding:0 0 20px;
+	color: yellow; 
+	font-size: 170%;
+	text-align: center;
+}
+.loginBox p{
+	margin: 0;
+	padding: 0;
+	font-width:bold;
+	color: #fff;
+}
+
+.loginBox input{
+	width: 260px;
+	margin-bottom: 20px;
+  
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	height: 40px;
+	font-size: 16px;
+}
+ ::placeholder{
+ 	color: rgba(255,255,255,.5);
+ }
+ .loginBox input[type="submit"],
+ .loginBox input[type="reset"]{
+ 	border: none;
+ 	outline: none;
+ 	height: 40px;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	background: #8B4513;
+ 	cursor: pointer;
+ 	border-radius: 20px;
+ }
+
+.loginBox input[type="submit"]:hover,
+.loginBox input[type="reset"]:hover{
+ 	
+ 	background: #DEB887;
+ 	color:#262626;
+
+ }
+ .loginBox a{
+ 	color: #fff;
+ 	font-size: 14px;
+ 	font-width: bold;
+ 	text-decoration:none;
+ }
+
+
+/*------------------Footer-------------------*/
+/*------------------Footer-------------------*/
+/*------------------Footer-------------------*/
+/*------------------Footer-------------------*/
+
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 30px 50px;
+  height: 250px;
+  
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.logo_img_footer img{
+      width: 130px;
+      height: 80px;
+      position: absolute;
+      float: left;
+      margin: 16px 26px;
+      border-radius: 5px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+.icon img{
+  height: 25px;
+  width: 25px;
+  padding-right: 20px;
+}
+
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.img_footer_right img{
+  height: 25px;
+  width: 25px;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+
+
